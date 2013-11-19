@@ -4,13 +4,18 @@
 	<title> Dashboard </title>
 	<meta charset="utf-8"> <!-- Use of this? Ensures default encoding, not sure if 100% necessary. HTML5 slides say 100% necessary. Closes UTF-7 security hole. --> 
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="home.js" charset="utf-8"> </script>
 </head>
 
 <body>
 	<nav class = "navbar"> 
 	
 	<ul>
-		<li> Home </li>
+		<li id="logo"> DashBoard </li>
+		<li> <a href = "dashboard.php#intro">HOME </a></li>
+		<li> <a href = "dashboard.php#wordpress"> WORDPRESS </a></li>
+		<li> GIT UPDATES</li>
 	</ul>
 	
 	</nav> 
@@ -22,18 +27,19 @@
 		<?php // Include api file here ?>
 			
 		</article>
+		<br />		
 		
-		
-		
-		<h2> Project </h2>
+		<h1> Project </h1>
 		<article>  
 		Inline text 
 		</article>	
 	</section> 
 	</div> 
-
+	
+	
 	<section id ="wordpress">
-		<h1> Updates </h1>
+		<h1> Updates  </h1>
+		<br />
 		<iframe width="420" height="315" src="http://numbugs.wordpress.com/" frameborder="0" allowfullscreen></iframe>
 	</section>
 
