@@ -1,0 +1,53 @@
+/****************** NAVBAR ***********************/ 
+.navbar {
+width: 100%
+position: fixed;
+background-color: #000000;
+}
+
+.navbar ul {
+color: #ffffff;
+}
+
+
+/****************** PAGES ***********************/ 
+
+/* Overall Background */
+body {
+	background: #8d8d8d url('http://www.catalytic-design.com/images/wood-background.jpg') repeat fixed top center;
+}
+
+/* INTRO Background */
+.introBackground {
+	width: 100%;
+	margin: 0; 
+	background: #8d8d8d url('http://www.catalytic-design.com/images/wood-background.jpg') repeat fixed top center;
+}
+
+/* INTRO Content */
+#intro {
+	width: 50%; 
+	margin-left: 15%; 
+	margin-right:15%; 
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 60px; 
+	padding-top: 30px; 
+}
+#intro h1, h2 { 
+	color: #ffffff; }
+	
+#intro article {
+	color: #9BD7FF; 
+	font-size: 30px; }
+	
+/* WORDPRESS */
+#wordpress {
+	width: 50%; 
+	margin-left: 20%; 
+	margin-right:20%; 
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 60px; 
+	padding-top: 30px; 
+}
