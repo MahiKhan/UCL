@@ -10,6 +10,20 @@ body {
 	background: #8d8d8d url('http://www.catalytic-design.com/images/wood-background.jpg') repeat fixed top center;
 }
 
+/****************** GlOBAL CSS ***********************/ 
+
+body h1 { 
+	color: #ffffff; 
+	font-size: 35px;
+}
+
+a {
+	color: #ffffff; 
+}
+
+p {
+	padding-bottom:15px;
+}
 
 /****************** NAVBAR ***********************/ 
 
@@ -77,20 +91,15 @@ position: fixed;
 	margin-right:15%; 
 	padding-left: 60px;
 	padding-right: 60px;
-	padding-bottom: 60px; 
+	padding-bottom: 30px; 
 	padding-top: 70px; 
 }
-#intro h1 { 
-	color: #ffffff; 
-	font-size: 35px;
-}
-
 #intro article {
 	color: #9BD7FF; 
 	font-size: 19px; }
 	
-/* WORDPRESS */
-#wordpress {
+/* WORDPRESS, FOOTER, Github */
+#wordpress, footer, #github {
 	width: 50%; 
 	margin-left: 15%; 
 	margin-right:15%; 
@@ -100,7 +109,6 @@ position: fixed;
 	padding-top: 30px; 
 }
 
-#wordpress h1 { 
-	color: #ffffff; 
-	font-size: 35px;
+footer {
+	color: #ffffff;
 }

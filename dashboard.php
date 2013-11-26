@@ -6,6 +6,7 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="home.js" charset="utf-8"> </script>
+
 </head>
 
 <body>
@@ -15,53 +16,51 @@
 		<li id="logo"> DashBoard </li>
 		<li> <a href = "dashboard.php#intro">HOME </a></li>
 		<li> <a href = "dashboard.php#wordpress"> WORDPRESS </a></li>
-		<li> GIT UPDATES</li>
+		<li> <a href="dashboard.php#github"> GIT UPDATES </a></li>
 	</ul>
 	
 	</nav> 
 
-	<div class = "introBackground">
 	<section id = "intro">
 		<h1> About Me </h1>
 		
 		<article>
-		<?php include_once('apiDashboard.php') ?>
+			<?php include_once('apiDashboard.php') ?>
+			<p> I'm a second year at UCL studying CS, working on a systems project to redesign the UCL Go app. I'm experienced with Java, PHP, and SQL, and enjoy building web applications. </p>
 		</article> 
+		<br />
 		
-		<article> Text from fb. Other BS. Filler. Text from fb. Other BS. Filler. Text from fb. Other BS. Filler. Text from fb. Other BS. Filler.
-		<?php // Include api file here ?>
-			
-		</article>
-		<br />		
-		
-		<h1> Project </h1>
 		<article>  
-		Inline text 
+		<h1> Project </h1>
+			<p> Our project is to re-design the UCL Go phone application, as the current system is designed by an external party whom UCL has to license the app from.  </p>
+			<p> We'll be using the PhoneGap SDK to develop and application that'll be available on all mobile platforms. </p>
+			<p> Our goal is to create a fast application, well designed and available offline.  </p>
 		</article>	
 	</section> 
-	</div> 
 	
 	
 	<section id ="wordpress">
-		<h1> Updates  </h1>
+		<h1> Wordpress Updates  </h1>
 		<br />
 		<iframe width="420" height="315" src="http://numbugs.wordpress.com/" frameborder="0" allowfullscreen></iframe>
 	</section>
 
-</section> 
 
+	<section id ="github">
+		<h1> Git Updates </h1>  
+  <iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=mahikhan&repo=UCL&limit=6&width=500&height=200" width="502px" height="202px"></iframe>
 
-<section id ="github">
+	</section> 
 
-</section> 
-
-<section id = "footer">
-	<?php
-	$filename = 'dashboard.php';
-    echo "File was last modified: " . date ("F d Y H:i:s.", filemtime($filename));
-
-	?>
-</section> 
-
+	<footer>
+		File was last modified: 
+		<script>
+			document.write(document.lastModified);
+		</script>
+		<?php /*
+		$filename = 'dashboard.php';
+    	echo "File was last modified: " . date ("F d Y H:i:s.", filemtime($filename));
+		 */ ?>
+	</footer> 
 
 </body>

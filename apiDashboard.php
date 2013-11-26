@@ -45,7 +45,7 @@ if ($data) {
     
     	echo $obj_array['name'];
     
-    	echo '<a href=" ' . $obj_array['link'] . ' "> Link to Facebook </a>';
+    	echo '  - <a href=" ' . $obj_array['link'] . ' "> Facebook </a>';
 		// Do something now with the data
 		    
         // See contnets of array: 
