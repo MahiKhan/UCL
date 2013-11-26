@@ -23,6 +23,11 @@
 	<div class = "introBackground">
 	<section id = "intro">
 		<h1> About Me </h1>
+		
+		<article>
+		<?php include_once('apiDashboard.php') ?>
+		</article> 
+		
 		<article> Text from fb. Other BS. Filler. Text from fb. Other BS. Filler. Text from fb. Other BS. Filler. Text from fb. Other BS. Filler.
 		<?php // Include api file here ?>
 			
@@ -48,6 +53,14 @@
 
 <section id ="github">
 
+</section> 
+
+<section id = "footer">
+	<?php
+	$filename = 'dashboard.php';
+    echo "File was last modified: " . date ("F d Y H:i:s.", filemtime($filename));
+
+	?>
 </section> 
 
 

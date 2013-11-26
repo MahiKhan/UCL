@@ -35,6 +35,11 @@ position: fixed;
 	padding-right: 3%;
 }
 
+.navbar a {
+	 text-decoration: none;
+}
+
+
 #logo {
 	font-size: 20px; 
 	color: #9BD7FF;
