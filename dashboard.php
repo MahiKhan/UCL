@@ -6,7 +6,7 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="home.js" charset="utf-8"> </script>
-
+	
 </head>
 
 <body>
@@ -42,12 +42,13 @@
 	<section id ="wordpress">
 		<h1> Wordpress Updates  </h1>
 		<br />
-		<iframe width="420" height="315" src="http://numbugs.wordpress.com/" frameborder="0" allowfullscreen></iframe>
+		<iframe width="420" height="315" src="http://mahiuclgo.wordpress.com/" frameborder="0" allowfullscreen></iframe>
 	</section>
 
 
 	<section id ="github">
 		<h1> Git Updates </h1>  
+  <!-- https://github.com/nlalonde/commits-widget --> 
   <iframe src="http://nlalonde.github.com/commits-widget/index.html?owner=mahikhan&repo=UCL&limit=6&width=500&height=200" width="502px" height="202px"></iframe>
 
 	</section> 
